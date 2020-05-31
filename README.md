@@ -9,6 +9,6 @@ The solution contains
 
 Execution guide -
 1. Type any number ranging 0 - 999999998 in the console. 
-2. Press <Enter>
+2. Press Enter
   
  Corresponding text convertion will be shown in cmd prompt/ integrated terminal
