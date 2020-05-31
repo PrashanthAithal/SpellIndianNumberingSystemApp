@@ -8,7 +8,7 @@ The solution contains
 2. NumberToTextGenerator - Console application.
 
 Execution guide -
-1. Type any number ranging 0 - 99999999 in the console. 
+1. Type any number ranging 0 - 999999998 in the console. 
 2. Press <Enter>
   
  Corresponding text convertion will be shown in cmd prompt/ integrated terminal
