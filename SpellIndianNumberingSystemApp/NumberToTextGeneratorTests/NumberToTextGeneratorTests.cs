@@ -1,15 +1,24 @@
 using System;
 using Xunit;
+using NumberToTextGenerator;
 
 namespace NumberToTextGeneratorTests
 {
-    public class UnitTest1
+    public class NumberToTextGeneratorTests
     {
         [Fact]
         public void NumberToWordTest()
         {
-             const Int64 numberToanalyze = 89898;
-             
-        }
+            try
+            {
+                int numberToanalyze = 89;
+                string outputText = NumberToTextGenerator.NumberToTextGenerator.NumberToWord(numberToanalyze);
+                //assert
+                Assert.Equal("Eighty Nine", outputText);
+            }
+           catch (Exception ex)
+            {
+                 throw ex;
+            }
     }
 }
